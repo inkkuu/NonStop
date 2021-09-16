@@ -1,0 +1,22 @@
+table, td, th
+{
+  border: 1px solid black;
+  width: 30%
+}
+table
+{
+  border-collapse: collapse;
+}
+#maat th
+{
+  text-align: left;
+}
+#maat tr:nth-child(even){background-color:#FFFF00;}
+
+#maat tr:nth-child(odd){background: #FFD700;}
+
+#maat th
+{
+  background-color: #FF0000;
+  color: white;
+}

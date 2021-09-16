@@ -1,0 +1,25 @@
+body
+{
+  background-color: LightBlue;
+}
+#kuva1
+{
+  float: left;
+}
+#kuva2
+{
+  clear: both;
+  float: right;
+}
+img
+{
+  margin: 10px;
+}
+p
+{
+  font-size: 26px
+}
+h1
+{
+  font-size: 55px
+}

@@ -14,7 +14,7 @@ h1
 }
 nav
 {
-  width: 400px;
+  width: 500px;
   height: 20px;
   background: #fb8b24;
   margin-left: 200px;
@@ -45,6 +45,10 @@ article
   width: 800px;
   background: #e36414;
 }
+article li
+{
+  padding: 10px 20px;
+}
 article p
 {
   padding: 10px;
@@ -67,6 +71,10 @@ aside article
   width: 200px;
   background: #fb8b24;
   color: #fff;
+}
+aside article p
+{
+  text-align: right;
 }
 footer
 {

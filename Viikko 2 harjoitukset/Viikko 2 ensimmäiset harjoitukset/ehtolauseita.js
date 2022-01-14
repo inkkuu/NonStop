@@ -68,3 +68,46 @@ function jarjestys()
     document.write("Annoit luvut: " + l1 + ' ' + l2 + ' ' + l3 + ' ' + l4 + ' ' + l5);
     document.write("<br>Suurin niistä on: " + suurin);
   }
+  function paritonParillinen()
+   {
+     var arvo;
+     arvo = parseInt(document.getElementById('luku').value);
+     document.write("Antamasi luku: " + arvo);
+     if(arvo%2 == 0)
+     {
+       document.write("<br>Antamasi luku on parillinen");
+     }
+     else {
+       document.write("<br>Antamasi luku on pariton");
+     }
+   }
+   function ajoneuvo()
+   {
+     var age = parseInt(document.getElementById('ika').value);
+     if(age < 16)
+     {
+       document.write("Voit ajaa polkupyörää");
+     }
+     else if(age < 18)
+     {
+       document.write("Voit ajaa mopoa");
+     }
+     else {
+       document.write("Voit ajaa autoa");
+     }
+   }
+   function kaanna()
+   {
+     var lang = document.getElementById('kieli').value;
+     if(lang == 'eng')
+     {
+       document.write("Hello world!");
+     }
+     else if(lang == 'swe')
+     {
+       document.write("Hej världen!");
+     }
+     else {
+       document.write("Hola Mundo!");
+     }
+   }
